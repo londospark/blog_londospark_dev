@@ -3,11 +3,18 @@ languageCode = 'en-gb'
 title = "LondoSpark's Blog"
 theme = "terminal"
 enableRobotsTXT = true
+canonifyURLs = true
+
+[pagination]
+pagerSize = 5
 
 [markup.highlight]
 noClasses = false
 
 [params]
+description = "LondoSpark's personal blog about programming, technology, and other random thoughts."
+author = "LondoSpark"
+images = ["og-image.png"]
 contentTypeName = "posts"
 showMenuItems = 2
 autoCover = true
@@ -41,3 +48,8 @@ logoHomeLink = "/"
 identifier = "about"
 name = "About"
 url = "/about"
+
+[[languages.en.menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories"
