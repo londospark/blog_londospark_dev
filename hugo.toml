@@ -1,3 +1,6 @@
 baseURL = 'https://londospark.github.io/blog_londospark_dev/'
 languageCode = 'en-gb'
 title = "LondoSpark's Blog"
+theme = "terminal"
+enableRobotsTXT = true
+
