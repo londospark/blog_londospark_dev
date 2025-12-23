@@ -1,0 +1,25 @@
+# Hugo default output directory
+# We ignore this because GitHub Actions will generate it fresh every time
+public/
+
+# Hugo resources (generated assets like resized images/SCSS cache)
+# Some devs commit this to save build time, but it's cleaner to ignore it
+resources/_gen/
+assets/jsconfig.json
+assets/tsconfig.json
+
+# OS specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories (if you end up using npm for anything advanced later)
+node_modules/
+package-lock.json
+yarn.lock
