@@ -1,6 +1,43 @@
-baseURL = 'https://londospark.github.io/blog_londospark_dev/'
+baseURL = 'https://blog.londospark.dev/'
 languageCode = 'en-gb'
 title = "LondoSpark's Blog"
 theme = "terminal"
 enableRobotsTXT = true
 
+[markup.highlight]
+noClasses = false
+
+[params]
+contentTypeName = "posts"
+showMenuItems = 2
+autoCover = true
+
+[languages]
+[languages.en]
+languageName = "English"
+title = "LondoSpark's Blog"
+
+[languages.en.params]
+subtitle = ""
+owner = ""
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
+minuteReadingTime = "min read"
+words = "words"
+
+[languages.en.params.logo]
+logoText = "LondoSpark's Blog"
+logoHomeLink = "/"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
