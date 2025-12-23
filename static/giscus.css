@@ -1,9 +1,9 @@
 /* static/giscus.css */
 main {
   /* Match your site's variable: --background: #a3a3a3; */
-  --color-canvas-default: #a3a3a3; 
-  --color-canvas-overlay: #b0b0b0; /* Slightly lighter for input box */
-  --color-canvas-subtle: #a3a3a3;
+  --color-canvas-default: #dddddd; 
+  --color-canvas-overlay: #e0e0e0; /* Slightly lighter for input box */
+  --color-canvas-subtle: #dddddd;
   
   /* Match your site's variable: --foreground: #000000; */
   --color-fg-default: #000000;
