@@ -1,0 +1,25 @@
+/* static/giscus.css */
+main {
+  /* Match your site's variable: --background: #a3a3a3; */
+  --color-canvas-default: #a3a3a3; 
+  --color-canvas-overlay: #b0b0b0; /* Slightly lighter for input box */
+  --color-canvas-subtle: #a3a3a3;
+  
+  /* Match your site's variable: --foreground: #000000; */
+  --color-fg-default: #000000;
+  --color-fg-muted: #333333;
+  
+  /* Match your site's variable: --accent: #0054a8; */
+  --color-accent-fg: #0054a8;
+  --color-accent-emphasis: #0054a8;
+  
+  /* Borders - slight darken for contrast */
+  --color-border-default: #0054a8; /* Using accent for retro feel */
+  --color-border-muted: #777777;
+
+  /* Button styles */
+  --color-btn-text: #ffffff;
+  --color-btn-bg: #0054a8;
+  --color-btn-border: #0054a8;
+  --color-btn-hover-bg: #004080;
+}
